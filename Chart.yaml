@@ -1,10 +1,9 @@
 apiVersion: v1
 appVersion: "1.0"
-description: A Helm chart for polling app
-name: polling
+description: A Helm chart for mall app
+name: mall-admin
 version: 0.1.0
-home: https://www.qikqiak.com
 maintainers:
-- name: 阳明
-  email: icnych@gmail.com
+- name: vaga
+  email: vagabond1_1983@163.com
 engine: gotpl
