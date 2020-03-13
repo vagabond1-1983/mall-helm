@@ -1,2 +1,2 @@
-# polling-helm
-the helm chart package of polling app
+# mall-helm
+the helm chart package of mall app
