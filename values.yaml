@@ -24,21 +24,21 @@ persistence:
 # imagePullSecrets:
 #   - name: myreg
 
-# ui:
-#   image:
-#     repository: cnych/polling-ui
-#     tag: 0.0.3
-#     pullPolicy: IfNotPresent
-#   replicas: 1
-# # resources:
-# #  requests:
-# #    memory: 256Mi
-# #    cpu: 100m
-#   nodeSelector: {}
-#   tolerations: []
-#   affinity: {}
-#   ## Additional deployment annotations
-#   podAnnotations: {}
+ui:
+  image:
+    repository: cnych/polling-ui
+    tag: 0.0.3
+    pullPolicy: IfNotPresent
+  replicas: 1
+# resources:
+#  requests:
+#    memory: 256Mi
+#    cpu: 100m
+  nodeSelector: {}
+  tolerations: []
+  affinity: {}
+  ## Additional deployment annotations
+  podAnnotations: {}
 
 api:
   image:
