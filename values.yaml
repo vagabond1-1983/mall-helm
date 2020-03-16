@@ -1,7 +1,7 @@
 expose:
   type: ingress
   tls:
-    enabled: false
+    enabled: true
     secretName: kongs-info-tls
   ingress:
     hosts:
