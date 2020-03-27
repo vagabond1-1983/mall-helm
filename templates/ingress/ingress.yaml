@@ -26,10 +26,10 @@ spec:
       paths:
       - path: /
         backend:
-          serviceName: {{ template "polling.ui" . }}
-          servicePort: http
-      - path: /api/
-        backend:
           serviceName: "{{ template "polling.api" . }}"
+          servicePort: http
+      - path: /ui
+        backend:
+          serviceName: {{ template "polling.ui" . }}
           servicePort: http
 {{- end }}
